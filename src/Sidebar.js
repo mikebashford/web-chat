@@ -49,7 +49,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="sidebar__profile">
-        <Avatar />
+        <Avatar src="" />
         <div className="sidebar__profileInfo">
           <h3>MakerOfMagic</h3>
           <p>#theId</p>
