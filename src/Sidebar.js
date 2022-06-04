@@ -12,7 +12,7 @@ import SettingsIcon from "@material-ui/icons/Settings";
 import { Avatar } from "@material-ui/core";
 import { useSelector } from "react-redux";
 import { selectUser } from "./features/userSlice";
-import db, { auth, collection, onSnapshot, addDoc } from "./firebase";
+import db, { auth } from "./firebase";
 
 const Sidebar = () => {
   const user = useSelector(selectUser);

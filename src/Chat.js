@@ -9,15 +9,7 @@ import Message from "./Message";
 import { useSelector } from "react-redux";
 import { selectUser } from "./features/userSlice";
 import { selectChannelId, selectChannelName } from "./features/appSlice";
-import db, {
-  collection,
-  onSnapshot,
-  addDoc,
-  doc,
-  updateDoc,
-  getDoc,
-  orderBy,
-} from "./firebase";
+import db from "./firebase";
 import firebase from "firebase/compat/app";
 
 const Chat = () => {
